@@ -1,11 +1,11 @@
 module.exports = {
-  title: "My Course",
+  title: "Apps from Scratch",
   tagline: "The tagline of my course",
-  url: "https://newline.co/courses/my-course",
+  url: "https://github.com/newnewline/apps-from-scratch",
   baseUrl: "/",
   favicon: "tools/docusaurus/static/img/favicon.ico",
   organizationName: "newline", // Usually your GitHub org/user name.
-  projectName: "my-course", // Usually your repo name.
+  projectName: "apps-from-scratch", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "My Course",
@@ -18,7 +18,6 @@ module.exports = {
 
   presets: [
     [
-      "@fullstackio/docusaurus-preset-newline",
       {
         docs: {
           homePageId: "welcome",

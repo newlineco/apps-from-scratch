@@ -1,8 +1,25 @@
-# Newline Course Template
+# ![Apps from Scratch](resources/apps-from-scratch-draft-logo.png)
 
-Welcome to the newline course template! 
+### Come chat with the community - [join our Discord!](https://discord.gg/hSx4STBfgB)
 
-Here's what to do next:
+[![Discord](https://img.shields.io/discord/621709887231229970?color=purple&logo=discord&style=social)](https://discord.gg/hSx4STBfgB) [![Twitter](https://img.shields.io/twitter/follow/fullstackio.svg?style=social&label=Follow)](https://twitter.com/fullstackio)
+
+
+## What is Apps from Scratch?
+
+- Apps from Scratch is a community effort to build a set of production-ready, open-source apps inspired by popular companies - but implemented across many combinations of frameworks.
+- It includes code, UI guidelines, tests, and even deployment scripts.
+
+## Get involved!
+Anyone can contribute to Apps from Scratch, just review the Contribution Guidelines and ...
+
+## Why do this?
+
+While there are plenty of "toy" apps on Github, there aren't many that show end-to-end, production applications. _Apps from Scratch_ fixes that by showing 
+
+## What projects are similar?
+
+In particular, we're inspired by Todo MVC and Realworld and we see _Apps from Scratch_ as a continuation of that idea: show the same app implemented in a variety of frameworks 
 
 ## Installation
 
@@ -10,63 +27,3 @@ Here's what to do next:
 yarn
 yarn start
 ```
-
-## Project Organization
-
-Your course should be organized into _modules_ with _lessons_.
-
-Because we can include images, code, manuscript, and resources with **each lesson** we need a folder for each lesson.
-Of course, putting all of the lessons in one big folder is unwieldy as well, so we use _modules_ and put each module in a folder, too.
-
-**Modules' and lessons' course order will be implied by alphabetical folder order**.
-
-Under the `course/` directly, each module should be in a folder like `module_00`, `module_01`, etc.
-
-Each lesson should also be in a folder.
-
-## Configuration
-
-* The course has a config in `config.js`
-* Each module has a config in `config.js`
-* Each lesson has a config in the markdown frontmatter. 
-
-Don't worry too much about these values now -- we'll deal with them more when we get closer to launch.
-
-## A Complete Example
-
-The Tinyhouse course is a completed example of a course with this structure. You should use it as your guide for more complicated things you want to do. But
-
-[Checkout the repo here](https://gitlab.com/fullstackio/books/tinyhouse/tinyhouse_internal)
-
-## Writing
-
-For each lesson, create a folder and markdown file. See below for importing code.
-
-## Previewing Your Changes
-
-```
-yarn start
-```
-
-This will start the preview server. You can make changes and it will live update
-
-## Sharing Resources
-
-Within each lesson folder, you can have two directories:
-
-- `public` -- public images / PDFs / anything that is public / can be in a preview
-- `protected` -- files we want to *require* login to be able to download. 
-
-Generally you'll use `public` for images -- we'll show some of these in previews. 
-
-But requests to `protected` we proxy through our server and require a login. It's a good fit for downloadable resources (like the completed sample code).
-
-## Importing Code
-
-See the lesson `course/module_01/lesson_01.01/code-loading-lesson.md`
-
-
-## Getting Help
-
-Just reach out to me (Nate) and I'll get you unstuck.
-

@@ -16,7 +16,8 @@
     "textlint-rule-no-todo": "^2.0.0"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.55",
+    "@docusaurus/core": "2.0.0-alpha.71",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.71",
     "@fullstackio/cq": "6.0.0",
     "@fullstackio/cqmd": "6.0.3",
     "@fullstackio/docusaurus-plugin-content-newline-course": "2.0.16",
